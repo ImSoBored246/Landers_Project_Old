@@ -1,0 +1,30 @@
+﻿<Window x:Class="CollisionTesting.LevelSelect"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollisionTesting"
+        mc:Ignorable="d"
+        Title="LevelSelect" Height="450" Width="800" MinWidth="600" MinHeight="450" Foreground="White" Background="Black">
+    <Grid>
+        <Button x:Name="button_L01" Content="01" HorizontalAlignment="Left" Margin="30,30,0,325" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L01_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L02" Content="02" HorizontalAlignment="Left" Margin="30,124,0,231" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L02_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L03" Content="03" HorizontalAlignment="Left" Margin="30,218,0,137" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L03_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L04" Content="04" HorizontalAlignment="Left" Margin="30,312,0,43" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L04_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L05" Content="05" HorizontalAlignment="Left" Margin="124,30,0,325" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L05_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L06" Content="06" HorizontalAlignment="Left" Margin="124,124,0,231" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L06_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L07" Content="07" HorizontalAlignment="Left" Margin="124,218,0,137" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L07_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L08" Content="08" HorizontalAlignment="Left" Margin="124,312,0,43" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L08_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L09" Content="09" HorizontalAlignment="Left" Margin="220,30,0,325" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L09_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L10" Content="10" HorizontalAlignment="Left" Margin="220,124,0,231" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L10_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L11" Content="11" HorizontalAlignment="Left" Margin="220,218,0,137" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L11_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L12" Content="12" HorizontalAlignment="Left" Margin="220,312,0,43" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L12_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L13" Content="13" HorizontalAlignment="Left" Margin="314,30,0,325" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L13_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L14" Content="14" HorizontalAlignment="Left" Margin="314,124,0,231" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L14_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L15" Content="15" HorizontalAlignment="Left" Margin="314,218,0,137" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L15_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_L16" Content="16" HorizontalAlignment="Left" Margin="314,312,0,43" VerticalAlignment="Center" Width="64" Height="64" FontSize="32" Click="Button_L16_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_Tutorial" Content="Tutorial" HorizontalAlignment="Right" Margin="0,30,30,0" VerticalAlignment="Top" Width="128" Height="64" FontSize="30" Click="Button_Tutorial_Click" Background="#FF303030" Foreground="White"/>
+        <Button x:Name="button_ReturnToMain" Content="Go back" HorizontalAlignment="Right" Margin="0,0,30,43" VerticalAlignment="Bottom" Width="128" Height="64" FontSize="30" Click="Button_ReturnToMain_Click" Background="#FF303030" Foreground="White"/>
+
+    </Grid>
+</Window>

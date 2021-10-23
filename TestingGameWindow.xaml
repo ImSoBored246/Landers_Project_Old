@@ -1,0 +1,13 @@
+﻿<Window x:Name="MainForm" x:Class="CollisionTesting.TestingGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollisionTesting"
+        mc:Ignorable="d"
+        Title="Game Window" Height="450" Width="800" KeyDown="KeyPress" Initialized="OnGameLoad" KeyUp="KeyRelease" ResizeMode="NoResize" Background="Black">
+    <Grid x:Name="GameGrid" HorizontalAlignment="Left" Height="417" VerticalAlignment="Top" Width="790">
+        <Label x:Name="gameOverLabel" Content="Close this window to continue!" HorizontalAlignment="Center" Margin="10,171,-106,194" VerticalAlignment="Center" FontSize="35" Width="886" Height="52" Visibility="Collapsed" Foreground="White"/>
+        <Label x:Name="TimeLabel" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+    </Grid>
+</Window>

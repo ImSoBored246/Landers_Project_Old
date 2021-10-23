@@ -1,0 +1,19 @@
+﻿<Window x:Class="CollisionTesting.HelpMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollisionTesting"
+        mc:Ignorable="d"
+        Title="Help Menu" Height="324.59" Width="800" Background="Black" Foreground="White" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="button_HCat1" Content="How do I play?" HorizontalAlignment="Right" Margin="0,0,559,235" VerticalAlignment="Bottom" Width="220" Height="40" FontSize="18" Click="Button_HCat1_Click" Background="#FF1F1F1F" Foreground="White"/>
+        <Button x:Name="button_HCat2" Content="How do high scores work?" HorizontalAlignment="Right" Margin="0,0,559,190" VerticalAlignment="Bottom" Width="220" Height="40" FontSize="18" Click="Button_HCat2_Click" Background="#FF1F1F1F" Foreground="White"/>
+        <Button x:Name="button_HCat3" Content="How do enemies work?" HorizontalAlignment="Right" Margin="0,0,559,145" VerticalAlignment="Bottom" Width="220" Height="40" FontSize="18" Click="Button_HCat3_Click" Background="#FF1F1F1F" Foreground="White"/>
+        <Button x:Name="button_HCat4" Content="Give me some tips" HorizontalAlignment="Right" Margin="0,0,559,100" VerticalAlignment="Bottom" Width="220" Height="40" FontSize="18" Click="Button_HCat4_Click" Background="#FF1F1F1F" Foreground="White"/>
+        <Button x:Name="button_MainMenu" Content="Main Menu" HorizontalAlignment="Right" Margin="0,0,559,10" VerticalAlignment="Bottom" Width="220" Height="40" FontSize="18" Click="MainMenu" Background="#FF1F1F1F" Foreground="White"/>
+        <Label x:Name="label_Output" Content="" HorizontalAlignment="Left" Margin="235,10,0,0" VerticalAlignment="Top" Height="107" Width="549" Foreground="White"/>
+        <Image x:Name="TutorialImage" HorizontalAlignment="Right" Height="164" Margin="0,122,10,0" VerticalAlignment="Top" Width="549"/>
+        <Button x:Name="button_TGW" Content="Enter training ground" HorizontalAlignment="Right" Margin="0,0,559,55" VerticalAlignment="Bottom" Width="220" Height="40" FontSize="18" Click="EnterTGW" Background="#FF1F1F1F" Foreground="White"/>
+    </Grid>
+</Window>
